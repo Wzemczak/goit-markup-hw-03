@@ -1,0 +1,165 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+
+footer {
+  background-color: var(--background-color);
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --brand-color: #2196f3;
+  --secondery-color: #757575;
+  --background-color: #2f303a;
+  --text-color: #212121;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.logo-span {
+  color: #000000;
+}
+
+.navigation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--brand-color);
+}
+.header-contact a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondery-color);
+}
+.header-contact a:hover,
+.header-contact a:focus {
+  color: var(--brand-color);
+}
+.button-filter {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+  cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--brand-color);
+  color: #fff;
+}
+.projects > li > figure > figcaption > h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects > li > figure > figcaption > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondery-color);
+  letter-spacing: 0.06em;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--brand-color);
+}
+.logo-span-footer {
+  color: #fff;
+}
+.footer-contact {
+  color: #fff;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.underline {
+  text-decoration: underline;
+}
+.footer-contact a:hover,
+.footer-contact a:focus {
+  color: var(--brand-color);
+}
+.button-main {
+  background-color: var(--brand-color);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.slogan {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondery-color);
+}
+.description p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.sec-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.people > li > figure > figcaption > h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.people > li > figure > figcaption > p {
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
