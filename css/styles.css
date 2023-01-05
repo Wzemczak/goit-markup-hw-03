@@ -209,7 +209,6 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 200px;
   padding-bottom: 30px;
   max-width: 696px;
   display: block;
@@ -310,4 +309,10 @@ header {
 }
 .people-container > ul > li > figure {
   margin: 0px;
+}
+.slogan-box2 {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
