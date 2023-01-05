@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
-  max-width: 1200px;
+  max-width: 1600px;
 }
 ul {
   list-style: none;
@@ -40,12 +40,17 @@ a {
   --background-color: #2f303a;
   --text-color: #212121;
 }
-.top-container {
-  display: flex;
-  align-items: center;
-  padding: 0px 15px;
+header {
   border-bottom: 1px solid #ececec;
+}
+.top-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .logo {
   font-family: "Raleway";
@@ -119,7 +124,7 @@ a {
 .grid {
   max-width: 1200px;
   padding: 0px;
-  margin: 94px 15px;
+  margin: 94px auto;
 }
 .projects {
   display: flex;
@@ -186,14 +191,14 @@ a {
   color: var(--brand-color);
 }
 .button-main {
+  display: block;
   background-color: var(--brand-color);
   border: none;
   color: #fff;
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 41px;
-  margin-bottom: 200px;
-  margin-left: 500px;
+  margin: 0 auto;
 }
 .slogan {
   font-weight: 900;
@@ -210,6 +215,10 @@ a {
   display: block;
   margin: 0 auto;
 }
+.description-box {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .description {
   font-size: 14px;
   line-height: 1.71;
@@ -221,6 +230,10 @@ a {
 }
 .description > li {
   width: 270px;
+}
+.team {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .description p {
@@ -273,7 +286,8 @@ a {
   color: #757575;
 }
 .bottom-container {
-  margin-left: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 60px 0px;
 }
 .footer-contact > li {
@@ -281,6 +295,8 @@ a {
 }
 .slogan-box {
   background-color: #2f303a;
+  display: block;
+  margin: 0 auto;
 }
 .pictures {
   display: flex;
@@ -288,8 +304,9 @@ a {
   margin-bottom: 94px;
 }
 .people-container {
-  max-width: 1200px;
   background: #f5f4fa;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .people-container > ul > li > figure {
   margin: 0px;
